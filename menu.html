@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu — Fig &amp; Filter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="nav.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html">Fig &amp; Filter</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="about.html">About</a>
+        <a href="visit.html">Visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="page-intro">
+      <h1>Menu</h1>
+      <p class="dietary">Dietary markers: (V) vegetarian · (VG) vegan · (GF) gluten-free</p>
+    </header>
+
+    <div class="menu-media">
+      <figure class="photo-wide">
+        <img src="images/menu-flatlay.jpg" alt="A croissant and two lattes on a wooden table, seen from above" width="1200" height="800">
+      </figure>
+      <figure class="photo-square">
+        <img src="images/latte-art.jpg" alt="Close-up of heart-shaped latte art in a Fig &amp; Filter cup" width="800" height="800">
+      </figure>
+    </div>
+
+    <div class="menu-columns">
+      <section class="menu-section" aria-labelledby="coffee-heading">
+        <h2 id="coffee-heading">Coffee</h2>
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-name">Espresso</span>
+            <span class="menu-price">$3.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Long black</span>
+            <span class="menu-price">$4.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Flat white</span>
+            <span class="menu-price">$5.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Latte</span>
+            <span class="menu-price">$5.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Cappuccino</span>
+            <span class="menu-price">$5.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Filter of the week (ask what's on)</span>
+            <span class="menu-price">$6.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Iced latte</span>
+            <span class="menu-price">$6.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Extra shot / oat or soy milk</span>
+            <span class="menu-price">+$0.80</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="menu-section" aria-labelledby="not-coffee-heading">
+        <h2 id="not-coffee-heading">Not Coffee</h2>
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-name">Loose-leaf tea (English breakfast, sencha, chamomile)</span>
+            <span class="menu-price">$4.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Chai latte</span>
+            <span class="menu-price">$5.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Fresh orange juice</span>
+            <span class="menu-price">$6.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">House-made lemonade with fig syrup</span>
+            <span class="menu-price">$5.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Hot chocolate</span>
+            <span class="menu-price">$5.00</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="menu-section" aria-labelledby="kitchen-heading">
+        <h2 id="kitchen-heading">All-Day Kitchen</h2>
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-name">Sourdough toast, cultured butter, house jam (V)</span>
+            <span class="menu-price">$8.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Granola, yoghurt, seasonal fruit (V, GF)</span>
+            <span class="menu-price">$12.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Mushrooms on toast, poached egg, herbs (V)</span>
+            <span class="menu-price">$16.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Fig &amp; Filter big breakfast</span>
+            <span class="menu-price">$22.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Halloumi and roast-vegetable sandwich (V)</span>
+            <span class="menu-price">$14.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Chicken schnitzel sandwich, slaw, pickles</span>
+            <span class="menu-price">$16.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Soup of the day with sourdough (ask)</span>
+            <span class="menu-price">$12.00</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="menu-section" aria-labelledby="bakery-heading">
+        <h2 id="bakery-heading">Bakery</h2>
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-name">Butter croissant (V)</span>
+            <span class="menu-price">$4.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Almond croissant (V) — until they run out</span>
+            <span class="menu-price">$6.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Fig and walnut scone (V)</span>
+            <span class="menu-price">$5.00</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Banana bread, toasted (V, GF)</span>
+            <span class="menu-price">$6.50</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-name">Cookie of the day (V)</span>
+            <span class="menu-price">$4.00</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <aside class="note">
+      <p>Prices include tax. The kitchen closes at 3:30pm; coffee and bakery run until close.</p>
+    </aside>
+
+    <section class="page-cta">
+      <a class="btn btn-primary" href="visit.html">Find us →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-meta">
+        <p class="footer-brand">Fig &amp; Filter</p>
+        <p>Tuesday to Sunday, 7:30am – 5:00pm</p>
+        <p>8 Chalk Lane</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="about.html">About</a>
+        <a href="visit.html">Visit</a>
+        <a href="mailto:hello@figandfilter.example">hello@figandfilter.example</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
